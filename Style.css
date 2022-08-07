@@ -1,0 +1,96 @@
+body{
+    background-image: url(Asset/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 1.5%;
+    padding: 5%;    
+    width: 63%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+}
+
+
+.box{
+    text-align: center;
+}
+
+
+#Logo{
+    width: 200px;
+}
+
+
+.box h1{
+    color: rgb(0, 255, 0);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 22px;
+}
+
+
+.box.buttons{
+    background-color: rgb(0, 255, 0);
+    padding: 0.5%;
+    
+}
+
+
+.box button{
+    font-size: 60%;
+    margin-bottom: 0.6%;
+    
+}
+
+
+main{
+    color: white;
+}
+
+section > input[type=checkbox]{
+    height: 15px;
+}
+
+
+main h2{
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 17px;  
+}
+
+
+main p{
+   margin-top: 0;
+   margin-bottom: 0;
+   font-size: 13px;
+}
+
+  
+.chargeBar{
+    height: 25px;
+    border-radius: 4px;
+}
+
+
+.chargeBar.Medium{
+    background-color: rgb(255, 186, 57);
+    width: 35%;
+}
+
+
+.chargeBar.High{
+    background-color: rgb(6, 187, 0);
+    width: 60%;
+}
+
+
+.chargeBar.Low{
+    background-color: rgb(255, 80, 57);
+    width: 15%;
+}
